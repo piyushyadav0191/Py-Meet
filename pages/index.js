@@ -34,6 +34,7 @@ props: {
         title: meetup.data.title,
         address: meetup.data.address,
         image: meetup.data.image ,
+        description: meetup.data.description,
         id: meetup._id.toString(),
     })),
 },
