@@ -11,7 +11,7 @@ function HomePage (props) {
      <title>Py Meet</title>
      <meta name="description" content="Browse your favourite city " />
    </Head>
-   <MeetupList meetups={ props.meetups } /> ;
+   <MeetupList meetups={ props.meetups } /> 
   </Fragment>
   
   );
